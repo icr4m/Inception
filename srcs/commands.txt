@@ -1,0 +1,2 @@
+docker build -t mon_nginx -f nginx/Dockerfile .
+docker run -d -p 8080:80 --name test-nginx mon_nginx
